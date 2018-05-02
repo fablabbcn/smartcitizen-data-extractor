@@ -37,8 +37,9 @@ for i in data_json['data']['sensors']:
         print('light')
     if i['id'] == 16:
         print('car exhaust')
-        print(get_rule('low', i['id']) * 10 )
-        print(get_rule('high',i['id']) * 10 )
+        print(i['raw_value'])
+        print(get_rule('low', i['id']) * i['raw_value'] )
+        #print(get_rule('high',i['id']) * 10 )
     if i['id'] == 29:
         print('noise data')
 

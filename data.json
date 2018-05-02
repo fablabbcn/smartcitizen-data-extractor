@@ -1,0 +1,24 @@
+{
+  "devices": [{
+    "id": 2300,
+    "uuid": "85543ca2-e543-4351-9122-98756d50e6b1",
+    "name": "Orchid Surf Stay Bali",
+    "description": "Located at the pool area of the hotel ",
+    "added_at": "2018-04-01T07:32:48Z",
+    "updated_at": "2018-04-10T00:10:05Z",
+    "data": {
+      "recorded_at": "2018-04-12T21:02:47Z",
+      "location": {
+        "latitude": -8.82111778712582,
+        "longitude": 115.15258114151
+      },
+      "sensors": [{
+        "id": 29,
+        "value": 0.0
+      }, {
+        "id": 16,
+        "value": 1.0
+      }]
+    }
+  }]
+}

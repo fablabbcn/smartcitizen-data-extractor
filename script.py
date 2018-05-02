@@ -16,6 +16,8 @@ data_string = data_bytes.decode('utf8')
 data_json = json.loads(data_string)
 
 
+# Read output file for writin
+
 #print(data_json['id'], data_json['state'], data_json['kit']['updated_at'])
 #print(data_json['owner']['location']['city'])
 #print('---')

@@ -50,10 +50,9 @@ def get_rule(deviceid, key, sensorid):
     for i in special_rules:
         # If we find deviceID inside the special_rules, we apply its magic values
         if deviceid == i['device_id']:
-            print('special_rule:', (deviceid, key, sensorid))
+            #print('special_rule:', (deviceid, key, sensorid))
             for j in special_rules:
                 if j['id'] == sensorid:
-                    print(j)
                     return j[key]
         else:
             #print('default_rule:', (deviceid, key, sensorid))
@@ -61,29 +60,45 @@ def get_rule(deviceid, key, sensorid):
                 if j['id'] == sensorid:
                     return j[key]
 
+def calculate(deviceid, sensorid, current_value):
+    high = get_rule(deviceid, 'high', sensorid)
+    low =  get_rule(deviceid, 'low', sensorid)
+    print('high: %f low: %f' %(high,low))
+
+    if current_value == None:
+        print('-- Value is null. Nothing to do')
+        return 0
+    else:
+        new_value = (current_value - low) / (high - low)
+        print(new_value)
+
+    """
+    if new_value > 1:
+        print('ERR')
+    if new_value < 0:
+        print('ERR')
+    """
+
+    return new_value
+
 # 4. Extract data
 # Real value / HIGH value?
 for device in final['devices']:
     for sensor in device['data']['sensors']:
         if sensor['id'] == 12:
             #print('air temp')
-            sensor['value'] = 0.222
+            sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
         if sensor['id'] == 13:
             #print('humidity')
-            sensor['value'] = 0.333
+            sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
         if sensor['id'] == 14:
             #print('light')
-            sensor['value'] = 0.444
+            sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
         if sensor['id'] == 16:
             #print('car exhaust')
-            high = get_rule(device['id'], 'high', sensor['id'])
-            low =  get_rule(device['id'], 'low', sensor['id'])
-            print('high: %f low: %f' %(high,low))
-            sensor['value'] = 999
+            sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
         if sensor['id'] == 29:
-            #print('noise data')
-            update_key_with_value(sensor['id'], 0.99999)
-
+            print('noise data')
 
 #print(final)
 # 6. Write final data file

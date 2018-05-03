@@ -3,7 +3,7 @@
     {
       "added_at": "2013-07-14T10:30:32Z",
       "data": {
-        "added_at": "2018-05-03T16:21:01Z",
+        "added_at": "2018-05-03T16:21:57Z",
         "location": {
           "city": "Elda",
           "country": "Spain",
@@ -15,49 +15,49 @@
           "latitude": 38.46739,
           "longitude": -0.79329
         },
-        "recorded_at": "2018-05-03T16:21:01Z",
+        "recorded_at": "2018-05-03T16:21:57Z",
         "sensors": [
           {
             "id": 10,
-            "raw_value": 100.0,
+            "raw_value": 88.0,
             "updated_at": "2015-07-05T19:53:51Z",
-            "value": 100.0
+            "value": 88.0
           },
           {
             "id": 5,
-            "raw_value": 56.7,
+            "raw_value": 57.1,
             "updated_at": "2015-09-17T14:56:59Z",
-            "value": 56.7
+            "value": 57.1
           },
           {
             "id": 4,
-            "raw_value": 17.5,
+            "raw_value": 17.3,
             "updated_at": "2015-09-17T14:52:11Z",
-            "value": 17.5
+            "value": 17.3
           },
           {
             "id": 8,
-            "raw_value": 626.253,
+            "raw_value": 599.917,
             "updated_at": "2015-09-16T16:50:41Z",
-            "value": 626.253
+            "value": 599.917
           },
           {
             "id": 9,
-            "raw_value": 705.765,
+            "raw_value": 700.532,
             "updated_at": "2015-09-16T16:51:42Z",
-            "value": 705.765
+            "value": 700.532
           },
           {
             "id": 21,
-            "raw_value": 7.0,
+            "raw_value": 10.0,
             "updated_at": "2015-07-05T19:57:22Z",
-            "value": 7.0
+            "value": 10.0
           },
           {
             "id": 7,
-            "raw_value": 17.0,
+            "raw_value": 56.0,
             "updated_at": "2015-09-17T14:56:00Z",
-            "value": 63.8
+            "value": 70.6
           },
           {
             "id": 6,
@@ -67,9 +67,9 @@
           },
           {
             "id": 11,
-            "raw_value": 4.729,
+            "raw_value": 5.07,
             "updated_at": "2015-09-17T14:58:07Z",
-            "value": 4.729
+            "value": 5.07
           }
         ]
       },
@@ -82,7 +82,7 @@
     {
       "added_at": "2016-11-18T15:15:57Z",
       "data": {
-        "added_at": "2018-05-03T16:19:56Z",
+        "added_at": "2018-05-03T16:21:57Z",
         "location": {
           "city": "Kent",
           "country": "United States",
@@ -94,13 +94,13 @@
           "latitude": 41.1522428487032,
           "longitude": -81.3544464111328
         },
-        "recorded_at": "2018-05-03T16:19:56Z",
+        "recorded_at": "2018-05-03T16:21:57Z",
         "sensors": [
           {
             "id": 14,
-            "raw_value": 1290.0,
+            "raw_value": 1328.6,
             "updated_at": "2015-07-05T19:57:36Z",
-            "value": 9.114285714285714
+            "value": 9.389999999999999
           },
           {
             "id": 17,
@@ -110,39 +110,39 @@
           },
           {
             "id": 13,
-            "raw_value": 17404.0,
+            "raw_value": 17472.0,
             "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0.19425354003906287
+            "value": 0.19517996651785716
           },
           {
             "id": 12,
-            "raw_value": 28040.0,
+            "raw_value": 28032.0,
             "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0.042428894042968755
+            "value": 0.04233951822916667
           },
           {
             "id": 15,
-            "raw_value": 158.087,
+            "raw_value": 157.199,
             "updated_at": "2015-07-05T19:57:59Z",
-            "value": 158.087
+            "value": 157.199
           },
           {
             "id": 16,
-            "raw_value": 477.804,
+            "raw_value": 477.264,
             "updated_at": "2015-07-05T19:58:18Z",
-            "value": 3.0842227979274606
+            "value": 3.080725388601036
           },
           {
             "id": 21,
-            "raw_value": 20.0,
+            "raw_value": 25.0,
             "updated_at": "2015-07-05T19:57:22Z",
-            "value": 20.0
+            "value": 25.0
           },
           {
             "id": 7,
-            "raw_value": 117.0,
+            "raw_value": 189.0,
             "updated_at": "2015-09-17T14:56:00Z",
-            "value": 63.0571428571429
+            "value": 65.225
           },
           {
             "id": 18,
@@ -161,7 +161,7 @@
     {
       "added_at": "2015-10-18T18:14:55Z",
       "data": {
-        "added_at": "2018-05-03T16:20:29Z",
+        "added_at": "2018-05-03T16:22:29Z",
         "location": {
           "city": "Broomfield",
           "country": "United States",
@@ -173,7 +173,7 @@
           "latitude": 39.996093,
           "longitude": -105.02485
         },
-        "recorded_at": "2018-05-03T16:20:29Z",
+        "recorded_at": "2018-05-03T16:22:29Z",
         "sensors": [
           {
             "id": 14,
@@ -189,27 +189,27 @@
           },
           {
             "id": 13,
-            "raw_value": 17224.0,
+            "raw_value": 17252.0,
             "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0.19180123465401785
+            "value": 0.19218270438058
           },
           {
             "id": 12,
-            "raw_value": 26292.0,
+            "raw_value": 26280.0,
             "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0.022900278727213747
+            "value": 0.022766215006510424
           },
           {
             "id": 15,
-            "raw_value": 170.917,
+            "raw_value": 170.87,
             "updated_at": "2015-07-05T19:57:59Z",
-            "value": 170.917
+            "value": 170.87
           },
           {
             "id": 16,
-            "raw_value": 122.564,
+            "raw_value": 121.966,
             "updated_at": "2015-07-05T19:58:18Z",
-            "value": 0.7834455958549222
+            "value": 0.7795725388601036
           },
           {
             "id": 21,
@@ -240,7 +240,7 @@
     {
       "added_at": "2016-06-05T11:46:03Z",
       "data": {
-        "added_at": "2018-05-03T16:20:11Z",
+        "added_at": "2018-05-03T16:22:11Z",
         "location": {
           "city": "Rockhampton City",
           "country": "Australia",
@@ -252,7 +252,7 @@
           "latitude": -23.3817907676463,
           "longitude": 150.517898797989
         },
-        "recorded_at": "2018-05-03T16:20:11Z",
+        "recorded_at": "2018-05-03T16:22:11Z",
         "sensors": [
           {
             "id": 14,
@@ -268,39 +268,39 @@
           },
           {
             "id": 13,
-            "raw_value": 23200.0,
+            "raw_value": 23212.0,
             "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0.2732177734375
+            "value": 0.27338126046317
           },
           {
             "id": 12,
-            "raw_value": 29224.0,
+            "raw_value": 29220.0,
             "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0.055656514485677086
+            "value": 0.055611826578776245
           },
           {
             "id": 15,
-            "raw_value": 127.769,
+            "raw_value": 128.4,
             "updated_at": "2015-07-05T19:57:59Z",
-            "value": 127.769
+            "value": 128.4
           },
           {
             "id": 16,
-            "raw_value": 135.744,
+            "raw_value": 138.697,
             "updated_at": "2015-07-05T19:58:18Z",
-            "value": 0.8688082901554404
+            "value": 0.8879339378238342
           },
           {
             "id": 21,
-            "raw_value": 7.0,
+            "raw_value": 8.0,
             "updated_at": "2015-07-05T19:57:22Z",
-            "value": 7.0
+            "value": 8.0
           },
           {
             "id": 7,
-            "raw_value": 27.0,
+            "raw_value": 188.0,
             "updated_at": "2015-09-17T14:56:00Z",
-            "value": 59.35
+            "value": 65.2
           },
           {
             "id": 18,
@@ -319,7 +319,7 @@
     {
       "added_at": "2016-06-10T07:49:44Z",
       "data": {
-        "added_at": "2018-05-03T16:21:00Z",
+        "added_at": "2018-05-03T16:22:00Z",
         "location": {
           "city": "Rockhampton City",
           "country": "Australia",
@@ -331,7 +331,7 @@
           "latitude": -23.3812195944448,
           "longitude": 150.516042709351
         },
-        "recorded_at": "2018-05-03T16:21:00Z",
+        "recorded_at": "2018-05-03T16:22:00Z",
         "sensors": [
           {
             "id": 14,
@@ -353,27 +353,27 @@
           },
           {
             "id": 12,
-            "raw_value": 28664.0,
+            "raw_value": 28672.0,
             "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0.04940020751953125
+            "value": 0.04948958333333334
           },
           {
             "id": 15,
-            "raw_value": 132.321,
+            "raw_value": 132.123,
             "updated_at": "2015-07-05T19:57:59Z",
-            "value": 132.321
+            "value": 132.123
           },
           {
             "id": 16,
-            "raw_value": 86.183,
+            "raw_value": 86.132,
             "updated_at": "2015-07-05T19:58:18Z",
-            "value": 0.5478173575129535
+            "value": 0.5474870466321244
           },
           {
             "id": 21,
-            "raw_value": 8.0,
+            "raw_value": 6.0,
             "updated_at": "2015-07-05T19:57:22Z",
-            "value": 8.0
+            "value": 6.0
           },
           {
             "id": 7,

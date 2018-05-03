@@ -157,6 +157,85 @@
       "name": "APNOA",
       "updated_at": "2015-10-10T00:17:39Z",
       "uuid": "09cabbec-9a52-48f1-a5c3-f22284c857b0"
+    },
+    {
+      "added_at": "2015-06-12T22:29:17Z",
+      "data": {
+        "added_at": "2017-12-16T00:57:47Z",
+        "location": {
+          "city": "Quito",
+          "country": "Ecuador",
+          "country_code": "EC",
+          "elevation": 8350,
+          "exposure": "outdoor",
+          "geohash": "6rbnv9u4n6",
+          "ip": null,
+          "latitude": -0.20975900523896,
+          "longitude": -78.502534031868
+        },
+        "recorded_at": "2017-12-16T00:57:47Z",
+        "sensors": [
+          {
+            "id": 14,
+            "raw_value": 0.0,
+            "updated_at": "2015-07-05T19:57:36Z",
+            "value": 0.44444
+          },
+          {
+            "id": 17,
+            "raw_value": 100.0,
+            "updated_at": "2015-07-05T19:55:34Z",
+            "value": 100.0
+          },
+          {
+            "id": 13,
+            "raw_value": 50676.0,
+            "updated_at": "2015-07-05T19:54:54Z",
+            "value": 0.33333
+          },
+          {
+            "id": 12,
+            "raw_value": 23444.0,
+            "updated_at": "2015-07-05T19:55:07Z",
+            "value": 0.22222
+          },
+          {
+            "id": 15,
+            "raw_value": 169.679,
+            "updated_at": "2015-07-05T19:57:59Z",
+            "value": 169.679
+          },
+          {
+            "id": 16,
+            "raw_value": 764.642,
+            "updated_at": "2015-07-05T19:58:18Z",
+            "value": 0.66666
+          },
+          {
+            "id": 21,
+            "raw_value": 8.0,
+            "updated_at": "2015-07-05T19:57:22Z",
+            "value": 8.0
+          },
+          {
+            "id": 7,
+            "raw_value": 0.0,
+            "updated_at": "2015-09-17T14:56:00Z",
+            "value": 50.0
+          },
+          {
+            "id": 18,
+            "raw_value": 0.0,
+            "updated_at": "2015-07-05T19:54:35Z",
+            "value": 0.0
+          }
+        ]
+      },
+      "description": "Running v0.9.1\nhttps://imgur.com/a/yNqx3",
+      "id": 2304,
+      "name": "V-SC01",
+      "updated_at": "2016-05-18T01:49:38Z",
+      "uuid": "27635f8e-2463-4ab5-9bf2-4a3ce0785e26"
     }
   ]
 }

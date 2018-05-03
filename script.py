@@ -8,9 +8,10 @@ with open('./default_rules.json', 'r') as f:
 with open('./special_rules.json', 'r') as f:
     special_rules = json.load(f)
 
+with open('./device_list.json', 'r') as f:
+    device_list = json.load(f)
+
 # 2. Fetch all devices from the API
-#device_list = [2300, 2301, 2304]
-device_list = [2300, 2301]
 final = {}
 final['devices'] = []
 
@@ -50,6 +51,7 @@ for dev in device_list:
 
 def get_rule(deviceid, key, sensorid):
     for i in special_rules:
+        # If we find deviceID inside the special_rules, we apply its magic values
         if deviceid == i['device_id']:
             print('SPECIAL')
             for j in special_rules:

@@ -6,6 +6,7 @@ with open('./rules.json', 'r') as f:
     rules = json.load(f)
 
 # 2. Fetch new data as json
+device_list = [2300, 2301]
 url = "https://api.smartcitizen.me/v0/devices/2300"
 req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
 
@@ -13,15 +14,20 @@ data_bytes = urlopen(req).read()
 data_string = data_bytes.decode('utf8')
 api_json = json.loads(data_string)
 
+# Clean / remove unwanted data
+api_json.pop('kit', None)
+api_json.pop('owner', None)
+api_json.pop('system_tags', None)
+api_json.pop('user_tags', None)
+api_json.pop('last_reading_at', None)
+api_json.pop('state', None)
+api_json.pop('mac_address', None)
+api_json.pop('last_reading_at', None)
 
-# 3. Read template file
-with open('./template.json', 'r') as f:
-    template = json.load(f)
+final = {}
 
-
-#print(data_json['id'], data_json['state'], data_json['kit']['updated_at'])
-#print(data_json['owner']['location']['city'])
-#print('---')
+# 3. Add each device to the final json
+final['devices'] = [api_json, api_json]
 
 def get_rule(key, sensorid):
     for i in rules:
@@ -30,13 +36,12 @@ def get_rule(key, sensorid):
 
 def change_key_with_value(key, value):
     print('changing sensor id: %s with value %f' % (key, value))
-    for device in template['devices']:
+    print('-----')
+    for device in final['devices']:
         for sensor in device['data']['sensors']:
             if sensor['id'] == key:
                 #print('FOUND', key)
                 sensor['value'] = value
-
-#car exhausts id:16, noise data id: 29, air temperature: 12, humidity: 13 and light: 14
 
 # 4. Extract data
 for i in api_json['data']['sensors']:
@@ -60,7 +65,7 @@ for i in api_json['data']['sensors']:
 
 
 
-print(template)
+#print(final)
 # 6. Write final data file
 with open('./data.json', 'w') as outfile:
-    json.dump(template, outfile, indent=2, sort_keys=True)
+    json.dump(final, outfile, indent=2, sort_keys=True)

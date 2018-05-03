@@ -1,15 +1,15 @@
-import json
+import json, urllib
 from urllib.request import Request, urlopen
 
-# 1. Fetch default_rules into a json variable
-with open('./default_rules.json', 'r') as f:
-    default_rules = json.load(f)
+# 1. Fetch rules and device list
+with urllib.request.urlopen('https://raw.githubusercontent.com/fablabbcn/smartcitizen-data-extractor/master/default_rules.json') as f:
+    default_rules = json.loads( f.read().decode() )
 
-with open('./special_rules.json', 'r') as f:
-    special_rules = json.load(f)
+with urllib.request.urlopen('https://raw.githubusercontent.com/fablabbcn/smartcitizen-data-extractor/master/special_rules.json') as f:
+    special_rules = json.loads( f.read().decode() )
 
-with open('./device_list.json', 'r') as f:
-    device_list = json.load(f)
+with urllib.request.urlopen('https://raw.githubusercontent.com/fablabbcn/smartcitizen-data-extractor/master/device_list.json') as f:
+    device_list = json.loads( f.read().decode() )
 
 # 2. Fetch all devices from the API
 final = {}

@@ -21,7 +21,7 @@
             "id": 14,
             "raw_value": 733.3,
             "updated_at": "2015-07-05T19:57:36Z",
-            "value": 0.44
+            "value": 0.44444
           },
           {
             "id": 17,
@@ -33,13 +33,13 @@
             "id": 13,
             "raw_value": 16462.6432,
             "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0.33
+            "value": 0.33333
           },
           {
             "id": 12,
             "raw_value": 28941.4614,
             "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0.22
+            "value": 0.22222
           },
           {
             "id": 15,
@@ -51,7 +51,7 @@
             "id": 16,
             "raw_value": 823.363,
             "updated_at": "2015-07-05T19:58:18Z",
-            "value": 0.66
+            "value": 0.66666
           },
           {
             "id": 21,
@@ -80,83 +80,83 @@
       "uuid": "86f6bb27-130b-4153-80e7-e7ef4707bc63"
     },
     {
-      "added_at": "2015-06-09T13:52:37Z",
+      "added_at": "2015-06-11T11:16:03Z",
       "data": {
-        "added_at": "2015-06-09T15:48:12Z",
+        "added_at": null,
         "location": {
-          "city": "Oulu",
-          "country": "Finland",
-          "country_code": "FI",
-          "elevation": 0,
-          "exposure": "indoor",
-          "geohash": "ued1ge5tzv",
+          "city": "Salzburg",
+          "country": "Austria",
+          "country_code": "AT",
+          "elevation": 400,
+          "exposure": "outdoor",
+          "geohash": "u23rcp6q7y",
           "ip": null,
-          "latitude": 65.0126148,
-          "longitude": 25.4714526
+          "latitude": 47.80949,
+          "longitude": 13.05501
         },
-        "recorded_at": "2015-06-09T15:48:12Z",
+        "recorded_at": null,
         "sensors": [
           {
             "id": 14,
-            "raw_value": 733.3,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:57:36Z",
-            "value": 0.44
+            "value": 0.44444
           },
           {
             "id": 17,
-            "raw_value": 97.8,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:55:34Z",
-            "value": 97.8
+            "value": null
           },
           {
             "id": 13,
-            "raw_value": 16462.6432,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0.33
+            "value": 0.33333
           },
           {
             "id": 12,
-            "raw_value": 28941.4614,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0.22
+            "value": 0.22222
           },
           {
             "id": 15,
-            "raw_value": 20.313,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:57:59Z",
-            "value": 20.313
+            "value": null
           },
           {
             "id": 16,
-            "raw_value": 823.363,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:58:18Z",
-            "value": 0.66
+            "value": 0.66666
           },
           {
             "id": 21,
-            "raw_value": 4.0,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:57:22Z",
-            "value": 4.0
+            "value": null
           },
           {
             "id": 7,
-            "raw_value": 681.0,
+            "raw_value": null,
             "updated_at": "2015-09-17T14:56:00Z",
-            "value": 73.35
+            "value": null
           },
           {
             "id": 18,
-            "raw_value": 0.0,
+            "raw_value": null,
             "updated_at": "2015-07-05T19:54:35Z",
-            "value": 0.0
+            "value": null
           }
         ]
       },
       "description": null,
-      "id": 2300,
-      "name": "Please work",
-      "updated_at": "2015-10-10T00:10:49Z",
-      "uuid": "86f6bb27-130b-4153-80e7-e7ef4707bc63"
+      "id": 2301,
+      "name": "APNOA",
+      "updated_at": "2015-10-10T00:17:39Z",
+      "uuid": "09cabbec-9a52-48f1-a5c3-f22284c857b0"
     }
   ]
 }

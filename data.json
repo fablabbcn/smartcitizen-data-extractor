@@ -1,69 +1,227 @@
 {
   "devices": [
     {
-      "added_at": "2015-06-09T13:52:37Z",
+      "added_at": "2013-07-14T10:30:32Z",
       "data": {
-        "added_at": "2015-06-09T15:48:12Z",
+        "added_at": "2018-05-03T16:21:01Z",
         "location": {
-          "city": "Oulu",
-          "country": "Finland",
-          "country_code": "FI",
-          "elevation": 0,
-          "exposure": "indoor",
-          "geohash": "ued1ge5tzv",
+          "city": "Elda",
+          "country": "Spain",
+          "country_code": "ES",
+          "elevation": 30,
+          "exposure": "outdoor",
+          "geohash": "eyz6vfy2g1",
           "ip": null,
-          "latitude": 65.0126148,
-          "longitude": 25.4714526
+          "latitude": 38.46739,
+          "longitude": -0.79329
         },
-        "recorded_at": "2015-06-09T15:48:12Z",
+        "recorded_at": "2018-05-03T16:21:01Z",
         "sensors": [
           {
-            "id": 14,
-            "raw_value": 733.3,
-            "updated_at": "2015-07-05T19:57:36Z",
-            "value": 5.1378571428571425
+            "id": 10,
+            "raw_value": 100.0,
+            "updated_at": "2015-07-05T19:53:51Z",
+            "value": 100.0
           },
           {
-            "id": 17,
-            "raw_value": 97.8,
-            "updated_at": "2015-07-05T19:55:34Z",
-            "value": 97.8
+            "id": 5,
+            "raw_value": 56.7,
+            "updated_at": "2015-09-17T14:56:59Z",
+            "value": 56.7
           },
           {
-            "id": 13,
-            "raw_value": 16462.6432,
-            "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0.1814285714285714
+            "id": 4,
+            "raw_value": 17.5,
+            "updated_at": "2015-09-17T14:52:11Z",
+            "value": 17.5
           },
           {
-            "id": 12,
-            "raw_value": 28941.4614,
-            "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0.05249999982248958
+            "id": 8,
+            "raw_value": 626.253,
+            "updated_at": "2015-09-16T16:50:41Z",
+            "value": 626.253
           },
           {
-            "id": 15,
-            "raw_value": 20.313,
-            "updated_at": "2015-07-05T19:57:59Z",
-            "value": 20.313
-          },
-          {
-            "id": 16,
-            "raw_value": 823.363,
-            "updated_at": "2015-07-05T19:58:18Z",
-            "value": 5.322299222797928
+            "id": 9,
+            "raw_value": 705.765,
+            "updated_at": "2015-09-16T16:51:42Z",
+            "value": 705.765
           },
           {
             "id": 21,
-            "raw_value": 4.0,
+            "raw_value": 7.0,
             "updated_at": "2015-07-05T19:57:22Z",
-            "value": 4.0
+            "value": 7.0
           },
           {
             "id": 7,
-            "raw_value": 681.0,
+            "raw_value": 17.0,
             "updated_at": "2015-09-17T14:56:00Z",
-            "value": 73.35
+            "value": 63.8
+          },
+          {
+            "id": 6,
+            "raw_value": 71.7,
+            "updated_at": "2015-09-17T14:57:28Z",
+            "value": 71.7
+          },
+          {
+            "id": 11,
+            "raw_value": 4.729,
+            "updated_at": "2015-09-17T14:58:07Z",
+            "value": 4.729
+          }
+        ]
+      },
+      "description": "Av. de ronda (Plaza del ejercito espa\u00f1ol) ",
+      "id": 212,
+      "name": "PuntuSmartSensor",
+      "updated_at": "2016-02-16T14:09:25Z",
+      "uuid": "b1b58ab1-d7d4-4152-a326-83cffed50e2c"
+    },
+    {
+      "added_at": "2016-11-18T15:15:57Z",
+      "data": {
+        "added_at": "2018-05-03T16:19:56Z",
+        "location": {
+          "city": "Kent",
+          "country": "United States",
+          "country_code": "US",
+          "elevation": null,
+          "exposure": "indoor",
+          "geohash": "dpq4hex90n",
+          "ip": null,
+          "latitude": 41.1522428487032,
+          "longitude": -81.3544464111328
+        },
+        "recorded_at": "2018-05-03T16:19:56Z",
+        "sensors": [
+          {
+            "id": 14,
+            "raw_value": 1290.0,
+            "updated_at": "2015-07-05T19:57:36Z",
+            "value": 9.114285714285714
+          },
+          {
+            "id": 17,
+            "raw_value": 100.0,
+            "updated_at": "2015-07-05T19:55:34Z",
+            "value": 100.0
+          },
+          {
+            "id": 13,
+            "raw_value": 17404.0,
+            "updated_at": "2015-07-05T19:54:54Z",
+            "value": 0.19425354003906287
+          },
+          {
+            "id": 12,
+            "raw_value": 28040.0,
+            "updated_at": "2015-07-05T19:55:07Z",
+            "value": 0.042428894042968755
+          },
+          {
+            "id": 15,
+            "raw_value": 158.087,
+            "updated_at": "2015-07-05T19:57:59Z",
+            "value": 158.087
+          },
+          {
+            "id": 16,
+            "raw_value": 477.804,
+            "updated_at": "2015-07-05T19:58:18Z",
+            "value": 3.0842227979274606
+          },
+          {
+            "id": 21,
+            "raw_value": 20.0,
+            "updated_at": "2015-07-05T19:57:22Z",
+            "value": 20.0
+          },
+          {
+            "id": 7,
+            "raw_value": 117.0,
+            "updated_at": "2015-09-17T14:56:00Z",
+            "value": 63.0571428571429
+          },
+          {
+            "id": 18,
+            "raw_value": 0.0,
+            "updated_at": "2015-07-05T19:54:35Z",
+            "value": 0.0
+          }
+        ]
+      },
+      "description": "None",
+      "id": 3773,
+      "name": "CAEDv1.1 Southern Exposure",
+      "updated_at": "2018-01-19T18:29:59Z",
+      "uuid": "e647ab4e-d009-4e21-9908-c49d415afb74"
+    },
+    {
+      "added_at": "2015-10-18T18:14:55Z",
+      "data": {
+        "added_at": "2018-05-03T16:20:29Z",
+        "location": {
+          "city": "Broomfield",
+          "country": "United States",
+          "country_code": "US",
+          "elevation": 5420,
+          "exposure": "indoor",
+          "geohash": "9xj7d154ps",
+          "ip": null,
+          "latitude": 39.996093,
+          "longitude": -105.02485
+        },
+        "recorded_at": "2018-05-03T16:20:29Z",
+        "sensors": [
+          {
+            "id": 14,
+            "raw_value": 13.7,
+            "updated_at": "2015-07-05T19:57:36Z",
+            "value": -0.0021428571428571477
+          },
+          {
+            "id": 17,
+            "raw_value": 100.0,
+            "updated_at": "2015-07-05T19:55:34Z",
+            "value": 100.0
+          },
+          {
+            "id": 13,
+            "raw_value": 17224.0,
+            "updated_at": "2015-07-05T19:54:54Z",
+            "value": 0.19180123465401785
+          },
+          {
+            "id": 12,
+            "raw_value": 26292.0,
+            "updated_at": "2015-07-05T19:55:07Z",
+            "value": 0.022900278727213747
+          },
+          {
+            "id": 15,
+            "raw_value": 170.917,
+            "updated_at": "2015-07-05T19:57:59Z",
+            "value": 170.917
+          },
+          {
+            "id": 16,
+            "raw_value": 122.564,
+            "updated_at": "2015-07-05T19:58:18Z",
+            "value": 0.7834455958549222
+          },
+          {
+            "id": 21,
+            "raw_value": 5.0,
+            "updated_at": "2015-07-05T19:57:22Z",
+            "value": 5.0
+          },
+          {
+            "id": 7,
+            "raw_value": 0.0,
+            "updated_at": "2015-09-17T14:56:00Z",
+            "value": 50.0
           },
           {
             "id": 18,
@@ -74,112 +232,33 @@
         ]
       },
       "description": null,
-      "id": 2300,
-      "name": "Please work",
-      "updated_at": "2015-10-10T00:10:49Z",
-      "uuid": "86f6bb27-130b-4153-80e7-e7ef4707bc63"
+      "id": 2615,
+      "name": "SandS",
+      "updated_at": "2015-11-26T00:12:25Z",
+      "uuid": "dc15ae9a-3a4a-462e-ad41-90dbd3330c67"
     },
     {
-      "added_at": "2015-06-11T11:16:03Z",
+      "added_at": "2016-06-05T11:46:03Z",
       "data": {
-        "added_at": null,
+        "added_at": "2018-05-03T16:20:11Z",
         "location": {
-          "city": "Salzburg",
-          "country": "Austria",
-          "country_code": "AT",
-          "elevation": 400,
-          "exposure": "outdoor",
-          "geohash": "u23rcp6q7y",
+          "city": "Rockhampton City",
+          "country": "Australia",
+          "country_code": "AU",
+          "elevation": null,
+          "exposure": "indoor",
+          "geohash": "r7g4cp7z1q",
           "ip": null,
-          "latitude": 47.80949,
-          "longitude": 13.05501
+          "latitude": -23.3817907676463,
+          "longitude": 150.517898797989
         },
-        "recorded_at": null,
+        "recorded_at": "2018-05-03T16:20:11Z",
         "sensors": [
           {
             "id": 14,
-            "raw_value": null,
+            "raw_value": 1.3,
             "updated_at": "2015-07-05T19:57:36Z",
-            "value": 0
-          },
-          {
-            "id": 17,
-            "raw_value": null,
-            "updated_at": "2015-07-05T19:55:34Z",
-            "value": null
-          },
-          {
-            "id": 13,
-            "raw_value": null,
-            "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0
-          },
-          {
-            "id": 12,
-            "raw_value": null,
-            "updated_at": "2015-07-05T19:55:07Z",
-            "value": 0
-          },
-          {
-            "id": 15,
-            "raw_value": null,
-            "updated_at": "2015-07-05T19:57:59Z",
-            "value": null
-          },
-          {
-            "id": 16,
-            "raw_value": null,
-            "updated_at": "2015-07-05T19:58:18Z",
-            "value": 0
-          },
-          {
-            "id": 21,
-            "raw_value": null,
-            "updated_at": "2015-07-05T19:57:22Z",
-            "value": null
-          },
-          {
-            "id": 7,
-            "raw_value": null,
-            "updated_at": "2015-09-17T14:56:00Z",
-            "value": null
-          },
-          {
-            "id": 18,
-            "raw_value": null,
-            "updated_at": "2015-07-05T19:54:35Z",
-            "value": null
-          }
-        ]
-      },
-      "description": null,
-      "id": 2301,
-      "name": "APNOA",
-      "updated_at": "2015-10-10T00:17:39Z",
-      "uuid": "09cabbec-9a52-48f1-a5c3-f22284c857b0"
-    },
-    {
-      "added_at": "2015-06-12T22:29:17Z",
-      "data": {
-        "added_at": "2017-12-16T00:57:47Z",
-        "location": {
-          "city": "Quito",
-          "country": "Ecuador",
-          "country_code": "EC",
-          "elevation": 8350,
-          "exposure": "outdoor",
-          "geohash": "6rbnv9u4n6",
-          "ip": null,
-          "latitude": -0.20975900523896,
-          "longitude": -78.502534031868
-        },
-        "recorded_at": "2017-12-16T00:57:47Z",
-        "sensors": [
-          {
-            "id": 14,
-            "raw_value": 0.0,
-            "updated_at": "2015-07-05T19:57:36Z",
-            "value": -0.1
+            "value": -0.0907142857142857
           },
           {
             "id": 17,
@@ -189,27 +268,106 @@
           },
           {
             "id": 13,
-            "raw_value": 50676.0,
+            "raw_value": 23200.0,
             "updated_at": "2015-07-05T19:54:54Z",
-            "value": 0.6475485665457571
+            "value": 0.2732177734375
           },
           {
             "id": 12,
-            "raw_value": 23444.0,
+            "raw_value": 29224.0,
             "updated_at": "2015-07-05T19:55:07Z",
-            "value": -0.008917510986328122
+            "value": 0.055656514485677086
           },
           {
             "id": 15,
-            "raw_value": 169.679,
+            "raw_value": 127.769,
             "updated_at": "2015-07-05T19:57:59Z",
-            "value": 169.679
+            "value": 127.769
           },
           {
             "id": 16,
-            "raw_value": 764.642,
+            "raw_value": 135.744,
             "updated_at": "2015-07-05T19:58:18Z",
-            "value": 4.9419818652849745
+            "value": 0.8688082901554404
+          },
+          {
+            "id": 21,
+            "raw_value": 7.0,
+            "updated_at": "2015-07-05T19:57:22Z",
+            "value": 7.0
+          },
+          {
+            "id": 7,
+            "raw_value": 27.0,
+            "updated_at": "2015-09-17T14:56:00Z",
+            "value": 59.35
+          },
+          {
+            "id": 18,
+            "raw_value": 0.0,
+            "updated_at": "2015-07-05T19:54:35Z",
+            "value": 0.0
+          }
+        ]
+      },
+      "description": "Smart Way Forward Strategy",
+      "id": 3431,
+      "name": "RRC SCK-2 - Records",
+      "updated_at": "2018-02-28T07:12:41Z",
+      "uuid": "5da909ee-890e-4e8d-b84f-b09d4952984a"
+    },
+    {
+      "added_at": "2016-06-10T07:49:44Z",
+      "data": {
+        "added_at": "2018-05-03T16:21:00Z",
+        "location": {
+          "city": "Rockhampton City",
+          "country": "Australia",
+          "country_code": "AU",
+          "elevation": null,
+          "exposure": "indoor",
+          "geohash": "r7g4cpd6w0",
+          "ip": null,
+          "latitude": -23.3812195944448,
+          "longitude": 150.516042709351
+        },
+        "recorded_at": "2018-05-03T16:21:00Z",
+        "sensors": [
+          {
+            "id": 14,
+            "raw_value": 1.3,
+            "updated_at": "2015-07-05T19:57:36Z",
+            "value": -0.0907142857142857
+          },
+          {
+            "id": 17,
+            "raw_value": 100.0,
+            "updated_at": "2015-07-05T19:55:34Z",
+            "value": 100.0
+          },
+          {
+            "id": 13,
+            "raw_value": 28724.0,
+            "updated_at": "2015-07-05T19:54:54Z",
+            "value": 0.3484763009207586
+          },
+          {
+            "id": 12,
+            "raw_value": 28664.0,
+            "updated_at": "2015-07-05T19:55:07Z",
+            "value": 0.04940020751953125
+          },
+          {
+            "id": 15,
+            "raw_value": 132.321,
+            "updated_at": "2015-07-05T19:57:59Z",
+            "value": 132.321
+          },
+          {
+            "id": 16,
+            "raw_value": 86.183,
+            "updated_at": "2015-07-05T19:58:18Z",
+            "value": 0.5478173575129535
           },
           {
             "id": 21,
@@ -231,11 +389,11 @@
           }
         ]
       },
-      "description": "Running v0.9.1\nhttps://imgur.com/a/yNqx3",
-      "id": 2304,
-      "name": "V-SC01",
-      "updated_at": "2016-05-18T01:49:38Z",
-      "uuid": "27635f8e-2463-4ab5-9bf2-4a3ce0785e26"
+      "description": "Smart Way Forward Strategy",
+      "id": 3441,
+      "name": "RRC SCK-3 GIS",
+      "updated_at": "2018-02-28T07:12:17Z",
+      "uuid": "a20e7cef-5e73-4b5b-9b88-660906d726b8"
     }
   ]
 }

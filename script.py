@@ -1,5 +1,8 @@
-import json, urllib
+import json, urllib, logging
 from urllib.request import Request, urlopen
+
+logging.basicConfig(filename='log.log', level=logging.DEBUG)
+logging.debug('Starting...')
 
 # 1. Fetch rules and device list
 with urllib.request.urlopen('https://raw.githubusercontent.com/fablabbcn/smartcitizen-data-extractor/master/default_rules.json') as f:
@@ -63,10 +66,10 @@ def get_rule(deviceid, key, sensorid):
 def calculate(deviceid, sensorid, current_value):
     high = get_rule(deviceid, 'high', sensorid)
     low =  get_rule(deviceid, 'low', sensorid)
-    print('high: %f low: %f' %(high,low))
+    logging.debug('high: %f low: %f' %(high,low))
 
     if current_value == None:
-        print('-- Value is null. Nothing to do')
+        logging.debug('Value is null. Nothing to do')
         return 0
     else:
         new_value = (current_value - low) / (high - low)

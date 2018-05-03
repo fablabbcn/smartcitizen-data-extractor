@@ -52,14 +52,14 @@ def get_rule(deviceid, key, sensorid):
     for i in special_rules:
         if deviceid == i['device_id']:
             print('SPECIAL')
-            for i in special_rules:
-                if i['id'] == sensorid:
-                    return i[key]
+            for j in special_rules:
+                if j['id'] == sensorid:
+                    return j[key]
         else:
             print('NOT SPECIAL')
-            for i in default_rules:
-                if i['id'] == sensorid:
-                    return i[key]
+            for j in default_rules:
+                if j['id'] == sensorid:
+                    return j[key]
 
 def update_key_with_value(key, value):
     print('Normalizing sensor id: %s with value %f' % (key, value))

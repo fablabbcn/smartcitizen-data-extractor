@@ -23,6 +23,16 @@ api_json.pop('last_reading_at', None)
 api_json.pop('state', None)
 api_json.pop('mac_address', None)
 api_json.pop('last_reading_at', None)
+for sens in api_json['data']['sensors']:
+    sens.pop('ancestry', None)
+    sens.pop('created_at', None)
+    sens.pop('description', None)
+    sens.pop('measurement_id', None)
+    sens.pop('name', None)
+    sens.pop('prev_raw_value', None)
+    sens.pop('prev_value', None)
+    sens.pop('unit', None)
+    sens.pop('uuid', None)
 
 final = {}
 

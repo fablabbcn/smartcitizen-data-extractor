@@ -63,4 +63,4 @@ for i in api_json['data']['sensors']:
 print(template)
 # 6. Write final data file
 with open('./data.json', 'w') as outfile:
-    json.dump(template, outfile)
+    json.dump(template, outfile, indent=2, sort_keys=True)

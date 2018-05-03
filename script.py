@@ -22,18 +22,18 @@ for dev in device_list:
 
     data_bytes = urlopen(req).read()
     data_string = data_bytes.decode('utf8')
-    api_json = json.loads(data_string)
+    current_device = json.loads(data_string)
 
     # Clean / remove unwanted data
-    api_json.pop('kit', None)
-    api_json.pop('owner', None)
-    api_json.pop('system_tags', None)
-    api_json.pop('user_tags', None)
-    api_json.pop('last_reading_at', None)
-    api_json.pop('state', None)
-    api_json.pop('mac_address', None)
-    api_json.pop('last_reading_at', None)
-    for sens in api_json['data']['sensors']:
+    current_device.pop('kit', None)
+    current_device.pop('owner', None)
+    current_device.pop('system_tags', None)
+    current_device.pop('user_tags', None)
+    current_device.pop('last_reading_at', None)
+    current_device.pop('state', None)
+    current_device.pop('mac_address', None)
+    current_device.pop('last_reading_at', None)
+    for sens in current_device['data']['sensors']:
         sens.pop('ancestry', None)
         sens.pop('created_at', None)
         sens.pop('description', None)
@@ -43,56 +43,46 @@ for dev in device_list:
         sens.pop('prev_value', None)
         sens.pop('unit', None)
         sens.pop('uuid', None)
-    final['devices'].append(api_json)
-
-# 3. Add each device to the final json
+    final['devices'].append(current_device)
 
 # FUNCTIONS
-
 def get_rule(deviceid, key, sensorid):
     for i in special_rules:
         # If we find deviceID inside the special_rules, we apply its magic values
         if deviceid == i['device_id']:
-            print('SPECIAL')
+            print('special_rule:', (deviceid, key, sensorid))
             for j in special_rules:
                 if j['id'] == sensorid:
+                    print(j)
                     return j[key]
         else:
-            print('NOT SPECIAL')
+            #print('default_rule:', (deviceid, key, sensorid))
             for j in default_rules:
                 if j['id'] == sensorid:
                     return j[key]
 
-def update_key_with_value(key, value):
-    print('Normalizing sensor id: %s with value %f' % (key, value))
-    for device in final['devices']:
-        for sensor in device['data']['sensors']:
-            if sensor['id'] == key:
-                #print('FOUND', key)
-                sensor['value'] = value
-
 # 4. Extract data
+# Real value / HIGH value?
 for device in final['devices']:
-    for i in device['data']['sensors']:
-        if i['id'] == 12:
+    for sensor in device['data']['sensors']:
+        if sensor['id'] == 12:
             #print('air temp')
-            # Apply correct rule
-            update_key_with_value(i['id'], 0.22222)
-        if i['id'] == 13:
+            sensor['value'] = 0.222
+        if sensor['id'] == 13:
             #print('humidity')
-            update_key_with_value(i['id'], 0.33333)
-        if i['id'] == 14:
+            sensor['value'] = 0.333
+        if sensor['id'] == 14:
             #print('light')
-            update_key_with_value(i['id'], 0.44444)
-        if i['id'] == 16:
+            sensor['value'] = 0.444
+        if sensor['id'] == 16:
             #print('car exhaust')
-            #print(get_rule(device['id'], 'low', i['id']) * i['raw_value'] )
-            tmp_val = get_rule(device['id'], 'high', i['id'])
-            print('tmp_val', tmp_val)
-            update_key_with_value(i['id'], 0.66666)
-        if i['id'] == 29:
+            high = get_rule(device['id'], 'high', sensor['id'])
+            low =  get_rule(device['id'], 'low', sensor['id'])
+            print('high: %f low: %f' %(high,low))
+            sensor['value'] = 999
+        if sensor['id'] == 29:
             #print('noise data')
-            update_key_with_value(i['id'], 0.99999)
+            update_key_with_value(sensor['id'], 0.99999)
 
 
 #print(final)

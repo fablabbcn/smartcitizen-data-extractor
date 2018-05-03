@@ -2,8 +2,8 @@
   {
     "device_id": 2301,
     "id": 16,
-    "low": 14,
-    "high": 257
+    "low": 100,
+    "high": 300
   },
   {
     "device_id": 2304,

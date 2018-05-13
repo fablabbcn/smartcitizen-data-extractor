@@ -8,14 +8,14 @@
   {
     "device_id": 4550,
     "id": 16,
-    "low": 300,
-    "high": 600
+    "low": 200,
+    "high": 1000
   },
   {
     "device_id": 4549,
     "id": 16,
-    "low": 300,
-    "high": 600
+    "low": 100,
+    "high": 900
   },
   {
     "device_id": 4548,

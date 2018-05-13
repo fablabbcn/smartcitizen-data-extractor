@@ -73,6 +73,8 @@ def calculate(deviceid, sensorid, current_value):
         return 0
     else:
         new_value = (current_value - low) / (high - low)
+        new_value = abs(new_value)
+        new_value = round(new_value, 3)
         print(new_value)
 
     """

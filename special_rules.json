@@ -1,14 +1,44 @@
 [
   {
-    "device_id": 2301,
+    "device_id": 4551,
     "id": 16,
-    "low": 100,
-    "high": 300
+    "low": 300,
+    "high": 600
   },
   {
-    "device_id": 2304,
-    "id": 12,
-    "low": 14,
-    "high": 257
+    "device_id": 4550,
+    "id": 16,
+    "low": 200,
+    "high": 1000
+  },
+  {
+    "device_id": 4549,
+    "id": 16,
+    "low": 100,
+    "high": 900
+  },
+  {
+    "device_id": 4548,
+    "id": 16,
+    "low": 300,
+    "high": 600
+  },
+  {
+    "device_id": 4547,
+    "id": 16,
+    "low": 300,
+    "high": 600
+  },
+  {
+    "device_id": 4546,
+    "id": 16,
+    "low": 300,
+    "high": 600
+  },
+  {
+    "device_id": 4545,
+    "id": 16,
+    "low": 300,
+    "high": 600
   }
 ]

@@ -88,22 +88,11 @@ def calculate(deviceid, sensorid, current_value):
 
 # 4. Extract data
 # Real value / HIGH value?
+ourIds = [12, 13, 14, 16, 29]
 for device in final['devices']:
     for sensor in device['data']['sensors']:
-        if sensor['id'] == 12:
-            #print('air temp')
+        if sensor['id'] in ourIds:
             sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
-        if sensor['id'] == 13:
-            #print('humidity')
-            sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
-        if sensor['id'] == 14:
-            #print('light')
-            sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
-        if sensor['id'] == 16:
-            #print('car exhaust')
-            sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
-        if sensor['id'] == 29:
-            #print('noise data')
 
 #print(final)
 # 6. Write final data file

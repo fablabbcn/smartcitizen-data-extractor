@@ -73,7 +73,7 @@ def calculate(deviceid, sensorid, current_value):
         return 0
     else:
         new_value = (current_value - low) / (high - low)
-        print(new_value)
+        #print(new_value)
 
     """
     if new_value > 1:
@@ -101,7 +101,7 @@ for device in final['devices']:
             #print('car exhaust')
             sensor['value'] = calculate(device['id'], sensor['id'], sensor['value'])
         if sensor['id'] == 29:
-            print('noise data')
+            #print('noise data')
 
 #print(final)
 # 6. Write final data file
